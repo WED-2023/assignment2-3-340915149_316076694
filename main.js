@@ -1,4 +1,5 @@
 require("dotenv").config();
+console.log(process.env.spooncular_apiKey);
 //#region express configures
 var express = require("express");
 var path = require("path");
